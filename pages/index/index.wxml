@@ -1,0 +1,12 @@
+<view class="container">
+  <tabs current="0" active-color="red" bindchange="handleTabClick">
+    <tab label="第一个">
+      <image src='http://olf3xgrra.bkt.clouddn.com/simui-preview-img.jpg' style='width:100%' mode='widthFix'></image>
+    </tab>
+    <tab label="第二个">
+      <view style='height:600rpx; text-align: center; font-size: 28rpx;padding:60rpx 0;'>
+        滑动可切换Tab
+      </view>
+    </tab>
+  </tabs>
+</view>
