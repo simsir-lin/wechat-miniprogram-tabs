@@ -12,15 +12,15 @@ git clone https://github.com/simsir-lin/tabs-wxapp.git
 打开[微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，'本地小程序项目 - 添加项目'，项目目录选择为 tabs-wxapp 的目录就可以了，添加项目后就可以进行组件源码的查看和预览demo了。
 
 ### 使用
-1. 将 tabs-wxapp 目录下的components文件夹下的`tabs`拷贝到你的小程序目录下
+1. 将 tabs-wxapp 目录下的components文件夹下的`tabs-wxapp`拷贝到你的小程序目录下
 
 2. 在你要使用的页面的json文件中引入组件，如：index页面的index.json
 ```
 {
   "navigationBarTitleText": "首页",
   "usingComponents": {
-    "tabs": "/components/tabs/tabs",
-    "tab": "/components/tabs/tab"
+    "tabs": "/components/tabs-wxapp/tabs",
+    "tab": "/components/tabs-wxapp/tab"
   }
 }
 ```

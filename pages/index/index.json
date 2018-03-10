@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "tabs": "/components/tabs/tabs",
-    "tab": "/components/tabs/tab"
+    "tabs": "/components/tabs-wxapp/tabs",
+    "tab": "/components/tabs-wxapp/tab"
   }
 }
