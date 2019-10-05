@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "tabs": "../../components/tabs",
-    "tab": "../../components/tab"
+    "tabs": "wechat-miniprogram-tabs/tabs",
+    "tab": "wechat-miniprogram-tabs/tab"
   }
 }

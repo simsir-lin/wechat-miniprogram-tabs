@@ -12,3 +12,4 @@ npm-debug.log*
 package-lock.json
 miniprogram_dist
 miniprogram_dev
+miniprogram_npm
