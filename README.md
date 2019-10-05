@@ -9,15 +9,16 @@
 git clone https://github.com/simsir-lin/wechat-miniprogram-tabs.git
 ```
 
-### DEMO
+### 示例
 1. 打开[微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，'本地小程序项目 - 添加项目'，项目目录选择为 example 目录
 
 ### 使用
-1. 安装
-```bash
+1. 安装，在你的项目根目录执行
+``` bash
 npm install --save wechat-miniprogram-tabs
 ```
-2. 在你的页面json中添加
+2. 每次引入或更新需先执行微信开发者工具的 `npm 构建`，[微信官方 npm 文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
+3. 在你的页面json中添加
 ``` javascript
 {
   "usingComponents": {
@@ -26,7 +27,6 @@ npm install --save wechat-miniprogram-tabs
   }
 }
 ```
-3. 每次引入或更新需先执行开发者工具的 npm 构建，[微信官方 npm 文档](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)
 4. 在wxml中即可使用组件
 ``` html
 <tabs>
