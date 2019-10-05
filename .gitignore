@@ -1,0 +1,14 @@
+*/.DS_Store
+.DS_Store
+.idea/
+
+.vscode
+project.config.json
+sitemap.json
+
+node_modules/
+npm-debug.log*
+
+package-lock.json
+miniprogram_dist
+miniprogram_dev

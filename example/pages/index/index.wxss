@@ -1,0 +1,10 @@
+.container {
+}
+
+.tab-content {
+  height: 600rpx;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-size: 28rpx;
+  padding:60rpx 0;
+}

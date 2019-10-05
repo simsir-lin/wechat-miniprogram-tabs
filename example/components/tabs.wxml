@@ -1,0 +1,14 @@
+<view class="tabs">
+  <view class='tabs-menu'>
+    <view wx:for="{{tabs}}" wx:key="index"
+      bindtap='toggleTab'
+      data-index="{{index}}"
+      class="{{index == current ? 'active' : ''}}"
+      style="color:{{index == current ? activeColor : '#333'}};border-color:{{index == current ? activeColor : '#fff'}};" >
+      {{ item.title }}
+    </view>
+  </view>
+  <view class='tabs-content' capture-bind:touchcancel='handleTouchCancel' capture-bind:touchend="handleTouchEnd" capture-bind:touchstart='handleTouchStart' capture-bind:touchmove='handleTouchMove'>
+    <slot></slot>
+  </view>
+</view>

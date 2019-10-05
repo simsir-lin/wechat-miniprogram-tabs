@@ -1,0 +1,5 @@
+<view class='tab' wx:if="{{show}}">
+  <view animation="{{animationData}}">
+    <slot></slot>
+  </view>
+</view>

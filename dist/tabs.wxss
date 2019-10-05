@@ -1,0 +1,24 @@
+.tabs .tabs-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.tabs .tabs-menu > view {
+  opacity: 0.5;
+  padding: 20rpx 0;
+  border-bottom: 2px solid #fff;
+  font-size: 28rpx;
+}
+.tabs .tabs-menu > view.active {
+  opacity: 1;
+  border-bottom: 2px solid #333;
+  animation: slideIn 0.5s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

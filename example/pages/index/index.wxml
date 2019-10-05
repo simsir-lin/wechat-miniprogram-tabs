@@ -1,0 +1,12 @@
+<view class="container">
+  <tabs current="0" bindchange="change">
+    <tab label="第一个">
+      <image src='https://tva1.sinaimg.cn/large/006y8mN6ly1g7nd2mkybvj30u00u04qq.jpg' style='width:100%' mode='widthFix' bindtap="tap"></image>
+    </tab>
+    <tab label="第二个">
+      <view class="tab-content">
+        滑动可切换Tab
+      </view>
+    </tab>
+  </tabs>
+</view>
